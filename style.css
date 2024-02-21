@@ -1,96 +1,206 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/*img logo + main
+https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+compromiso <a href="https://www.flaticon.es/iconos-gratis/lealtad" title="lealtad iconos">Lealtad iconos creados por Freepik - Flaticon</a>
+
+cuenta <a href="https://www.flaticon.es/iconos-gratis/persona" title="persona iconos">Persona iconos creados por inkubators - Flaticon</a>
+
+carrito <a href="https://www.flaticon.es/iconos-gratis/carrito-inteligente" title="carrito inteligente iconos">Carrito inteligente iconos creados por Freepik - Flaticon</a>
+
+mastercard <a href="https://www.flaticon.es/iconos-gratis/tarjeta-mastercard" title="tarjeta mastercard iconos">Tarjeta mastercard iconos creados por Tahsin Tahil - Flaticon</a>
+
+maestro <a href="https://www.flaticon.es/iconos-gratis/maestro" title="maestro iconos">Maestro iconos creados por Roundicons - Flaticon</a>
+
+visa  <a href="https://www.flaticon.es/iconos-gratis/visa" title="visa iconos">Visa iconos creados por Roundicons - Flaticon</a>
+
+apple <a href="https://www.flaticon.es/iconos-gratis/mac" title="mac iconos">Mac iconos creados por Freepik - Flaticon</a>
+
+icon blog
+
+icon instagram <a href="https://www.flaticon.es/iconos-gratis/logotipo-de-instagram" title="logotipo de instagram iconos">Logotipo de instagram iconos creados por Freepik - Flaticon</a>
+
+icon twitter <a href="https://www.flaticon.es/iconos-gratis/pio" title="pío iconos">Pío iconos creados por Freepik - Flaticon</a>
+
+icon facebook <a href="https://www.flaticon.es/iconos-gratis/facebook" title="facebook iconos">Facebook iconos creados por Freepik - Flaticon</a>
+
+icon telegram <a href="https://www.flaticon.es/iconos-gratis/telegrama" title="telegrama iconos">Telegrama iconos creados por Fathema Khanom - Flaticon</a>
+
+icon youtube <a href="https://www.flaticon.es/iconos-gratis/youtube" title="youtube iconos">Youtube iconos creados por Freepik - Flaticon</a>
+
+icon tiktok <a href="https://www.flaticon.es/iconos-gratis/tik-tok" title="tik tok iconos">Tik tok iconos creados por Freepik - Flaticon</a>
+
+icon twitch <a href="https://www.flaticon.es/iconos-gratis/contraccion-nerviosa" title="contracción nerviosa iconos">Contracción nerviosa iconos creados por Bombasticon Studio - Flaticon</a>
+
+*/
+/*img 1ra main
+https://img.pccomponentes.com/pcblog/1703631600000/820x460-home-reyes-sin-finan-1.jpg
+
+https://img.pccomponentes.com/pcblog/1703631600000/500x500-oferta-flash.jpg
+
+https://img.pccomponentes.com/pcblog/1702940400000/500x500-portatiles.jpg
+
+https://img.pccomponentes.com/pcblog/1701385200000/500x500-ordenadores.jpg
+
+https://img.pccomponentes.com/pcblog/1701385200000/500x500-componentes.jpg
+
+https://img.pccomponentes.com/pcblog/1701644400000/500x500-monitores-1-2.jpg
+
+https://img.pccomponentes.com/pcblog/1701644400000/500x500-perifericos-1.jpg
+
+https://img.pccomponentes.com/pcblog/1701644400000/500x500-smartphones-1.jpg
+
+https://img.pccomponentes.com/pcblog/1702508400000/500x500-tv-y-audio-1.jpg
+
+https://img.pccomponentes.com/pcblog/1701385200000/500x500-consolas.jpg
+
+https://img.pccomponentes.com/pcblog/1701644400000/500x500-hogar-1.jpg
+
+https://img.pccomponentes.com/pcblog/1701644400000/500x500-cocina.jpg
+
+https://img.pccomponentes.com/pcblog/1703545200000/destacado-home-500x500.jpg
+*/
+
+/*img categorias en tendencia
+https://cdn.pccomponentes.com/img/repositorio/maincategoryid/id-fam-1115.jpg?2
+
+https://img.pccomponentes.com/pcblog/1671404400000/familia-pccom-500x500.jpg
+
+https://img.pccomponentes.com/pcblog/1679439600000/familia-smartphones-500x500.png
+
+https://img.pccomponentes.com/pcblog/1678834800000/auriculares500x500.png
+
+https://img.pccomponentes.com/pcblog/1673564400000/familia-televisores-500x500-producto.jpg
+
+https://cdn.pccomponentes.com/img/repositorio/maincategoryid/id-fam-6.jpg?3
+*/
+
+/*img nuestras brands
+https://img.pccomponentes.com/pcblog/1667170800000/br-pccom.jpg
+
+https://img.pccomponentes.com/pcblog/1667170800000/br-forgeon-1.jpg
+
+https://img.pccomponentes.com/pcblog/1667170800000/br-tempest-1.jpg
+
+https://img.pccomponentes.com/pcblog/1667170800000/br-owlotech.jpg
+
+https://img.pccomponentes.com/pcblog/1667170800000/br-alurin.jpg
+
+https://img.pccomponentes.com/pcblog/1695074400000/br-nilait-2.jpg
+
+https://img.pccomponentes.com/pcblog/1667170800000/br-origial.jpg
+
+https://img.pccomponentes.com/pcblog/1695852000000/br-pccom-essential.jpg
+*/
+
+/*img compromiso ctes
+https://cdn.pccomponentes.com/img/repositorio/home/opcion-01-quienes-grey-min.webp
+
+https://cdn.pccomponentes.com/img/repositorio/home/opcion-01-compromisos-grey-min.webp
+
+https://cdn.pccomponentes.com/img/repositorio/home/opcion-01-nosotros-grey-min.webp
+
+https://cdn.pccomponentes.com/img/repositorio/home/opcion-01-servicios-grey-min.webp
+
+https://cdn.pccomponentes.com/img/repositorio/home/opcion-01-prensa-grey-min.webp
+*/
+
+/*img footer
+https://cdn.pccomponentes.com/img/iconos/64px_truck_delivery.png
+
+https://cdn.pccomponentes.com/img/iconos/64px_hold.png
+
+https://cdn.pccomponentes.com/img/iconos/64px_refresh.png
+
+
+https://cdn.pccomponentes.com/img/footer/ecommerceawards-es-2022.png
+
+https://cdn.pccomponentes.com/img/footer/eAward19.png
+
+https://cdn.pccomponentes.com/img/footer/eCommerceAwards.png
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+:root{
+--primary-font: 'Open Sans', sans-serif;
+--primary-BG: #170453;
+--secondary-BG:#F2F2F2;
+--terciary-BG:#ff6000;
+--spacing: 20px;
+--border: 0px none;
+
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+*{
   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+/*HEADER*/
+
+header{
+margin: var(--spacing);
+display: flex;
+align-items:center;
+height: 15vh;
+padding: 20px;
+justify-content: space-between;
+
+}
+
+#logo{
+  width: 130px;
+}
+/*cuadro de busquedas*/
+.buscadores{
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Caja de Busqueda*/
+#lupa{
+  padding-right: 25px;
+  background: url("./assets/lupa.png") no-repeat right;
+  background-size: 18px;
+
+}
+/*navegador*/
+
+nav{
+  display: inline-flex;
+  justify-content: space-between;
+  color: black;
+  font-family: var();
+}
+nav ul{
+  gap: 2rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding: 10px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+li{
+  display: inline-flex;
+  justify-content: space-between;
+  color:black;
+
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+li > img{
+  width: 20px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
+li:hover{
+  background-color: lightgray;
+  color:black;
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

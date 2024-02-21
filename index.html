@@ -4,12 +4,44 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Proyecto2-PcComponents</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header id=" header_page">
+      <img id="logo" src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg" alt="logo pccomponentes">
+      <div class="buscadores">
+        <form class="categories" id="categories">
+          <select list="items" placeholder="Todas las categorias">
+          <datalist id="items">
+            <option selected="selected"value="2">Todas las categorias </option>
+            <option value="3">Reacondicionada</option>
+          </datalist>
+        </form>
+      </div>
+     <input id="lupa" type="text" placeholder="Buscar">
+      <nav class="Menu-option">
+        <ul>
+          <li>
+            <img src="./assets/comercio-electronico.png" alt="Compromisos">
+            <a href="#Compromisos">Compromisos</a>
+          </li>
+          <li>
+            <img src="./assets/perfil.png" alt="Mi Cuenta">
+            <a href="#micuenta">Mi cuenta</a>
+          </li>
+          <li>
+            <img src="./assets/carrito-de-compras.png" alt="Mi cesta">
+            <a href="#micesta">Mi Cesta</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+    <main>
+      <div id="product-grid">
+      </div>
+    </main>
+    <footer></footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
-<div id="product-grid">
-</div>
